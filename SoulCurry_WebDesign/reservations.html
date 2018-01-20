@@ -1,0 +1,62 @@
+<html>
+
+<head>
+	<title>Soul Curry</title>
+	<link rel="stylesheet" type="text/css"
+	href="css/style.css"> </head>
+
+<body>
+<script type="text/javascript" src="js/emailvalid.js"></script>
+	<div class="container">
+
+		<div class="col-10 navigation">
+			<div class="col-2 logo"> </div>
+			<div class="col-8">
+				<ul class="nav-links">
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="ourmenu.html">Our Menu</a></li>
+					<li><a href="ourdeals.html">Our Deals</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="reservations.html" class="activelink">Reservations</a></li>	
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="col-10 section">
+			<div class="col-4">&nbsp;</div>
+			<div class="col-2 stand">
+				<h3>RESERVATIONS BOOKING FORM</h3> </div>
+			<div class="col-4">&nbsp;</div>
+			<div class="col-5">
+			<img class="image" src="img/room1.jpg" style="width:50%;padding:1.5em;" />
+			<p>Shop No 7 , 42-48 Bourke Street ,  Waterford West , Qld-4133 </p>
+						</div>
+			<div class="col-5">
+				<form name="frmone" method="post" action="">
+				<input type="text" required name="first" placeholder="First Name" title="Write only letters" pattern="[A-Za-z]{1,20}">
+				<input type="text" required name="last"  placeholder="Last Name" title="Write only letters" pattern="[A-Za-z]{1,20}">
+				<input type="email" required name="email" placeholder="Email Address includes @ and ." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+				<input type="" required name="phone" placeholder="Phone Number(zero followed by 9 digits)" pattern="[0-9]{10}" title="starts with zero followed by 9 digits without country code">
+				<input type="date" required name="date" placeholder="Date of Reservation (DD/MM/YYY)">
+				<input type="time" required name="time" placeholder="Time of Arrival">
+				<input type="number" required name="person" min="1" max="100" placeholder="Number of People">
+
+
+				<textarea  rows=6 placeholder="Message"></textarea><br/>
+				<button type="submit">Submit</button>
+					
+					</form>
+
+					
+			</div>
+			<div class="col-10 section footer" style="height:75px;"> 
+			<p>Ph : 07 1441 2882 &nbsp;  ;  &nbsp;    Email : soulcurry@gmail.com&nbsp; ; &nbsp; &copy; Copyright 2016, &nbsp;All Rights Reserved, &nbsp;Soul Curry <sup>&reg;</sup></p>
+			</div>
+
+			</div>
+	</div>
+	
+
+</html>

@@ -1,0 +1,380 @@
+@import url(openSans.css);
+body {
+font-family: Open Sans;
+background-color: #FFF7F7;
+margin: 0px auto;
+max-width: 1200px;
+}
+div.container {
+position: relative;
+width: 100%;
+margin: 0 auto;
+padding: 0;
+border-left: 1px solid #0d0d0d;
+border-right: 1px solid #0d0d0d;
+}
+.row {
+margin: 0 0 18px -20px;
+}
+div {
+float: left;
+display: inline-block;
+}
+.col-0 {
+width: 5%;
+}
+.col-1 {
+width: 10%;
+}
+.col-2 {
+width: 20%;
+}
+.col-3 {
+width: 30%;
+}
+.col-4 {
+width: 40%;
+}
+.col-5 {
+width: 50%;
+}
+.col-6 {
+width: 60%;
+}
+.col-7 {
+width: 70%;
+}
+.col-8 {
+width: 80%;
+}
+.col-9 {
+width: 90%;
+}
+.col-10 {
+width: 100%;
+}
+.column-row:after,
+.row:after,
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+* html .column-row,
+* html .row,
+* html .clearfix {
+height: 1%;
+}
+.column-row,
+.row,
+.clearfix {
+display: inline-block;
+}
+.column-row,
+.row,
+.clearfix {
+display: block;
+}
+.logo {
+height: 70px;
+background: url("../img/logofinal.jpg");
+background-position: center;
+background-repeat: no-repeat;
+}
+.navigation {
+background-color: #FFFFFF;
+width: 100%;
+height: 70px;
+box-shadow: #eee 0px 5px 10px;
+}
+ul.nav-links {
+float: right;
+list-style-type: none;
+}
+ul.nav-links>li {
+display: inline;
+width: 25px;
+padding-right: 5px;
+}
+ul.nav-links>li>a {
+text-decoration: none;
+color: inherit;
+padding: 4px 6px;
+}
+ul.nav-links>li>a:hover {
+background-color: #303526;
+color: white;
+}
+.slider {
+height: 50%;
+}
+.activelink {
+background-color: #303526;
+color: white !important;
+}
+.section {
+text-align: center;
+background-color: #F9F9F9;
+}
+p {
+padding: 0px 100px 0px 100px;
+}
+.stand {
+border-bottom: 1px solid #D3D3D3;
+box-shadow: #e3e3e3 0px 15px 20px -12px;
+margin-bottom: 10px;
+}
+.bg-2 {
+background-color: #ECECEC;
+}
+.image {
+width: 70%;
+}
+.image:hover {
+opacity: 0.8;
+}
+.image {
+-webkit-transition: all 0.5s ease;
+}
+.image:hover {
+-webkit-transform: scale(0.9);
+}
+.right {
+float: right;
+text-align: right;
+padding: 0px;
+margin: 0px;
+}
+.left {
+float: left;
+text-align: left;
+padding: 0px;
+margin: 0px;
+}
+.testimonialt {
+color: #A1A1A1;
+font-style: italic;
+margin-left: 20%;
+}
+.bt1 {
+background: #0E0E0E;
+padding: 1px 15px;
+color: #ddd;
+text-decoration: none;
+border: 1px solid #A1A1A1;
+}
+.bt1:hover {
+background: #ffffff;
+color: #A1A1A1;
+border: 1px solid #A1A1A1;
+}
+.bt2 {
+background: #ffffff;
+padding: 1px 15px;
+color: #A1A1A1;
+text-decoration: none;
+border: 1px solid #A1A1A1;
+}
+.bt2:hover {
+background: #0E0E0E;
+color: #ddd;
+border: 1px solid #A1A1A1;
+}
+.tst {
+float: left;
+margin: 10% 0% 10% 10%;
+}
+.footer {
+background-color: #0d0d0d;
+color: #f9f9f9;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+input, textarea, select{
+display: block;
+width: 50%;
+margin-top: 2em;
+border: none;
+background-color: #f2f2f2;
+padding: 10px 10px;
+color: darkgrey;
+text-transform: capitalize;
+}
+.frm{
+float:left;
+margin:5% 0% 10% 0%;
+}
+.centr{
+align:center;
+text-align:center;
+}
+/*.wallpapers{
+background-image:url(../img/cs1.jpg);
+background-repeat: no-repeat;
+background-position: 50%;
+border-radius: 50%;
+width: 120px;
+height: 120px;
+margin-left:20%;
+border:1px solid #000;
+}*/
+.panel-title{
+background-color: #0E0E0E;
+color: #A1A1A1;
+text-align: left;
+text-indent: 20px;
+}
+.panel-title2{
+background-color: #A1A1A1;
+color: #FFFFFF;
+text-align: center;
+}
+.wallpapers>img{
+width:100%;
+height:100%;
+border-radius:50%;
+}
+.feedback>form>input,.feedback>form>textarea{
+width:100%;
+}
+.item{
+width:100%;
+}
+.item>img{
+width:100%;
+height:100%;
+}
+.owl-pagination{
+display:none;
+}
+.accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+}
+.accordion.active, .accordion:hover {
+background-color: #FF9E9E; 
+}
+.panel {
+padding: 0 18px;
+display: none;
+background-color: white;
+}
+.panel.show {
+display: block !important;
+}
+.table{
+width: 95%;
+}
+
+.table, .td{
+border:1px;
+border-collapse: collapse;
+}
+.td{
+padding: 5px;
+text-align: left;
+}
+.table#01 tr:nth-child(odd){
+background-color: #eee;
+}
+.table#01 tr:nth-child(even){
+background-color: #fff;
+}
+
+
+
+
+input.mail {
+  -webkit-appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+input.invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus.invalid {
+  outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+  width  : 100%;
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*p > label {
+  display: block;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea,
+fieldset {
+/* required to properly style form 
+   elements on WebKit based browsers */
+  /*-webkit-appearance: none;
+  
+  width : 100%;
+  border: 1px solid #333;
+  margin: 0;
+  
+  font-family: inherit;
+  font-size: 90%;
+  
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  outline: none;
+}*/
